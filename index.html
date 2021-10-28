@@ -2,13 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/jpg" href="/design/favicon.png"/>
-    <link rel="stylesheet" href="/css/style.css"/>
     <title>Jack D. Roach</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
-    Under construction...
+    <header>
+        <a class="logo" href="index.html"><img src="images/logo.svg" alt="logo" width="37px"></a>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pages/about.html">About</a></li>
+                <li><a href="pages/portfolio.html">portfolio</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="pages/contact.html">Contact</a>
+        <p class="menu cta">Menu</p>
+    </header>
+    <div id="mobile__menu" class="overlay">
+        <a class="close">&times;</a>
+        <div class="overlay__content">
+            <a href="index.html">Home</a>
+            <a href="pages/about.html">About</a>
+            <a href="pages/portfolio.html">portfolio</a>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/mobile.js"></script>
 </body>
 </html>
