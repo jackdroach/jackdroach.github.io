@@ -1,6 +1,6 @@
 # jackdroach.github.io
 
-My Github.io page.
+My website.
 
 ## Lisense
 
