@@ -105,6 +105,19 @@
     color: #edf0f1;
     cursor: pointer;
   }
+
+  .mobile__cta {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
   
   @media screen and (max-height: 450px) {
     .overlay a {
