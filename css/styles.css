@@ -111,12 +111,18 @@
     font-weight: 500;
     color: #edf0f1;
     text-decoration: none;
-    padding: 9px 25px;
+    padding: 22.5px 62.5px !important;
     background-color: rgba(0, 136, 169, 1);
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    margin-top: 20px;
+  }
+
+  .mobile__cta:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+    color: #edf0f1 !important;
   }
   
   @media screen and (max-height: 450px) {
